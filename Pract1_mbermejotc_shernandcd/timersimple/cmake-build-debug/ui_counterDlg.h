@@ -36,11 +36,11 @@ public:
         button->setGeometry(QRect(130, 190, 251, 71));
 
         double_speed_b = new QPushButton(Counter);
-        double_speed_b->setObjectName(QString::fromUtf8("double_speed"));
+        double_speed_b->setObjectName(QString::fromUtf8("Double"));
         double_speed_b->setGeometry(QRect(20, 170, 89, 25));
 
         half_speed_b = new QPushButton(Counter);
-        half_speed_b->setObjectName(QString::fromUtf8("half_speed;"));
+        half_speed_b->setObjectName(QString::fromUtf8("Half"));
         half_speed_b->setGeometry(QRect(20, 200, 89, 25));
 
         lcdNumber = new QLCDNumber(Counter);
