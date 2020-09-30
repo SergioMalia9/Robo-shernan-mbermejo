@@ -3984,7 +3984,7 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
-CommonBehavior.h
+src/CommonBehavior.h
 IceUtil/PushDisableWarnings.h
 -
 Ice/ProxyF.h
@@ -4022,15 +4022,15 @@ IceUtil/UndefSysMacros.h
 IceUtil/PopDisableWarnings.h
 -
 
-Controller_autogen/include/moc_sigwatch.cpp
+src/Controller_autogen/include/moc_sigwatch.cpp
 sigwatch/sigwatch.h
-Controller_autogen/include/sigwatch/sigwatch.h
+src/Controller_autogen/include/sigwatch/sigwatch.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-DifferentialRobot.h
+src/DifferentialRobot.h
 IceUtil/PushDisableWarnings.h
 -
 Ice/ProxyF.h
@@ -4072,7 +4072,7 @@ IceUtil/UndefSysMacros.h
 IceUtil/PopDisableWarnings.h
 -
 
-GenericBase.h
+src/GenericBase.h
 IceUtil/PushDisableWarnings.h
 -
 Ice/ProxyF.h
@@ -4112,7 +4112,7 @@ IceUtil/UndefSysMacros.h
 IceUtil/PopDisableWarnings.h
 -
 
-Laser.h
+src/Laser.h
 IceUtil/PushDisableWarnings.h
 -
 Ice/ProxyF.h
@@ -4154,25 +4154,25 @@ IceUtil/UndefSysMacros.h
 IceUtil/PopDisableWarnings.h
 -
 
-config.h
+src/config.h
 
-genericmonitor.h
+src/genericmonitor.h
 Ice/Ice.h
 -
 QtCore
 -
 genericworker.h
-genericworker.h
+src/genericworker.h
 config.h
-config.h
+src/config.h
 qlog/qlog.h
 -
 CommonBehavior.h
 -
 
-genericworker.h
+src/genericworker.h
 config.h
-config.h
+src/config.h
 stdint.h
 -
 qlog/qlog.h
@@ -4186,11 +4186,11 @@ GenericBase.h
 Laser.h
 -
 
-specificmonitor.h
+src/specificmonitor.h
 genericmonitor.h
-genericmonitor.h
+src/genericmonitor.h
 
-specificworker.h
+src/specificworker.h
 genericworker.h
 -
 innermodel/innermodel.h

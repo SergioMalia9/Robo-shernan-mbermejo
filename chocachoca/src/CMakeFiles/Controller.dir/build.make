@@ -43,229 +43,229 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src
+CMAKE_SOURCE_DIR = /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src
+CMAKE_BINARY_DIR = /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca
 
 # Include any dependencies generated for this target.
-include CMakeFiles/Controller.dir/depend.make
+include src/CMakeFiles/Controller.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/Controller.dir/progress.make
+include src/CMakeFiles/Controller.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/Controller.dir/flags.make
+include src/CMakeFiles/Controller.dir/flags.make
 
-CommonBehavior.cpp:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.h and CommonBehavior.cpp from CommonBehavior.ice"
-	slice2cpp CommonBehavior.ice -I. --output-dir .
+src/CommonBehavior.cpp:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommonBehavior.h and CommonBehavior.cpp from CommonBehavior.ice"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && slice2cpp CommonBehavior.ice -I. --output-dir .
 
-CommonBehavior.h: CommonBehavior.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate CommonBehavior.h
+src/CommonBehavior.h: src/CommonBehavior.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate src/CommonBehavior.h
 
-DifferentialRobot.cpp:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating DifferentialRobot.h and DifferentialRobot.cpp from DifferentialRobot.ice"
-	slice2cpp DifferentialRobot.ice -I. --output-dir .
+src/DifferentialRobot.cpp:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating DifferentialRobot.h and DifferentialRobot.cpp from DifferentialRobot.ice"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && slice2cpp DifferentialRobot.ice -I. --output-dir .
 
-DifferentialRobot.h: DifferentialRobot.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate DifferentialRobot.h
+src/DifferentialRobot.h: src/DifferentialRobot.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate src/DifferentialRobot.h
 
-GenericBase.cpp:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating GenericBase.h and GenericBase.cpp from GenericBase.ice"
-	slice2cpp GenericBase.ice -I. --output-dir .
+src/GenericBase.cpp:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating GenericBase.h and GenericBase.cpp from GenericBase.ice"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && slice2cpp GenericBase.ice -I. --output-dir .
 
-GenericBase.h: GenericBase.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate GenericBase.h
+src/GenericBase.h: src/GenericBase.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate src/GenericBase.h
 
-Laser.cpp:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Laser.h and Laser.cpp from Laser.ice"
-	slice2cpp Laser.ice -I. --output-dir .
+src/Laser.cpp:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Laser.h and Laser.cpp from Laser.ice"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && slice2cpp Laser.ice -I. --output-dir .
 
-Laser.h: Laser.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate Laser.h
+src/Laser.h: src/Laser.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate src/Laser.h
 
-CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o: Controller_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/mocs_compilation.cpp
+src/CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o: src/Controller_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/mocs_compilation.cpp
 
-CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/mocs_compilation.cpp > CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/mocs_compilation.cpp > CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.i
 
-CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/mocs_compilation.cpp -o CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/mocs_compilation.cpp -o CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/Controller.dir/specificworker.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/specificworker.cpp.o: specificworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Controller.dir/specificworker.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/specificworker.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificworker.cpp
+src/CMakeFiles/Controller.dir/specificworker.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/specificworker.cpp.o: src/specificworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Controller.dir/specificworker.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/specificworker.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificworker.cpp
 
-CMakeFiles/Controller.dir/specificworker.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/specificworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/specificworker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificworker.cpp > CMakeFiles/Controller.dir/specificworker.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificworker.cpp > CMakeFiles/Controller.dir/specificworker.cpp.i
 
-CMakeFiles/Controller.dir/specificworker.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/specificworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/specificworker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificworker.cpp -o CMakeFiles/Controller.dir/specificworker.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificworker.cpp -o CMakeFiles/Controller.dir/specificworker.cpp.s
 
-CMakeFiles/Controller.dir/specificmonitor.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/specificmonitor.cpp.o: specificmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Controller.dir/specificmonitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/specificmonitor.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.cpp
+src/CMakeFiles/Controller.dir/specificmonitor.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/specificmonitor.cpp.o: src/specificmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/Controller.dir/specificmonitor.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/specificmonitor.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.cpp
 
-CMakeFiles/Controller.dir/specificmonitor.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/specificmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/specificmonitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.cpp > CMakeFiles/Controller.dir/specificmonitor.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.cpp > CMakeFiles/Controller.dir/specificmonitor.cpp.i
 
-CMakeFiles/Controller.dir/specificmonitor.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/specificmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/specificmonitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.cpp -o CMakeFiles/Controller.dir/specificmonitor.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.cpp -o CMakeFiles/Controller.dir/specificmonitor.cpp.s
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o: /home/salabeta/robocomp/classes/rapplication/rapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o -c /home/salabeta/robocomp/classes/rapplication/rapplication.cpp
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o: /home/salabeta/robocomp/classes/rapplication/rapplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o -c /home/salabeta/robocomp/classes/rapplication/rapplication.cpp
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/rapplication/rapplication.cpp > CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.i
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/rapplication/rapplication.cpp -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.s
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o -c /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o: /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o -c /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp > CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.i
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.s
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o -c /home/salabeta/robocomp/classes/qlog/qlog.cpp
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o: /home/salabeta/robocomp/classes/qlog/qlog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o -c /home/salabeta/robocomp/classes/qlog/qlog.cpp
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/qlog/qlog.cpp > CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/classes/qlog/qlog.cpp > CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.i
 
-CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/classes/qlog/qlog.cpp -o CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.s
 
-CMakeFiles/Controller.dir/main.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Controller.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/main.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/main.cpp
+src/CMakeFiles/Controller.dir/main.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/main.cpp.o: src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/Controller.dir/main.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/main.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/main.cpp
 
-CMakeFiles/Controller.dir/main.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/main.cpp > CMakeFiles/Controller.dir/main.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/main.cpp > CMakeFiles/Controller.dir/main.cpp.i
 
-CMakeFiles/Controller.dir/main.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/main.cpp -o CMakeFiles/Controller.dir/main.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/main.cpp -o CMakeFiles/Controller.dir/main.cpp.s
 
-CMakeFiles/Controller.dir/genericmonitor.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/genericmonitor.cpp.o: genericmonitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Controller.dir/genericmonitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/genericmonitor.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.cpp
+src/CMakeFiles/Controller.dir/genericmonitor.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/genericmonitor.cpp.o: src/genericmonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/Controller.dir/genericmonitor.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/genericmonitor.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.cpp
 
-CMakeFiles/Controller.dir/genericmonitor.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/genericmonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/genericmonitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.cpp > CMakeFiles/Controller.dir/genericmonitor.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.cpp > CMakeFiles/Controller.dir/genericmonitor.cpp.i
 
-CMakeFiles/Controller.dir/genericmonitor.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/genericmonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/genericmonitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.cpp -o CMakeFiles/Controller.dir/genericmonitor.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.cpp -o CMakeFiles/Controller.dir/genericmonitor.cpp.s
 
-CMakeFiles/Controller.dir/commonbehaviorI.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/commonbehaviorI.cpp.o: commonbehaviorI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Controller.dir/commonbehaviorI.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/commonbehaviorI.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.cpp
+src/CMakeFiles/Controller.dir/commonbehaviorI.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/commonbehaviorI.cpp.o: src/commonbehaviorI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/Controller.dir/commonbehaviorI.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/commonbehaviorI.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.cpp
 
-CMakeFiles/Controller.dir/commonbehaviorI.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/commonbehaviorI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/commonbehaviorI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.cpp > CMakeFiles/Controller.dir/commonbehaviorI.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.cpp > CMakeFiles/Controller.dir/commonbehaviorI.cpp.i
 
-CMakeFiles/Controller.dir/commonbehaviorI.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/commonbehaviorI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/commonbehaviorI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.cpp -o CMakeFiles/Controller.dir/commonbehaviorI.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.cpp -o CMakeFiles/Controller.dir/commonbehaviorI.cpp.s
 
-CMakeFiles/Controller.dir/genericworker.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/genericworker.cpp.o: genericworker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Controller.dir/genericworker.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/genericworker.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericworker.cpp
+src/CMakeFiles/Controller.dir/genericworker.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/genericworker.cpp.o: src/genericworker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/Controller.dir/genericworker.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/genericworker.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericworker.cpp
 
-CMakeFiles/Controller.dir/genericworker.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/genericworker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/genericworker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericworker.cpp > CMakeFiles/Controller.dir/genericworker.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericworker.cpp > CMakeFiles/Controller.dir/genericworker.cpp.i
 
-CMakeFiles/Controller.dir/genericworker.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/genericworker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/genericworker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericworker.cpp -o CMakeFiles/Controller.dir/genericworker.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericworker.cpp -o CMakeFiles/Controller.dir/genericworker.cpp.s
 
-CMakeFiles/Controller.dir/CommonBehavior.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/CommonBehavior.cpp.o: CommonBehavior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Controller.dir/CommonBehavior.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/CommonBehavior.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CommonBehavior.cpp
+src/CMakeFiles/Controller.dir/CommonBehavior.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/CommonBehavior.cpp.o: src/CommonBehavior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/Controller.dir/CommonBehavior.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/CommonBehavior.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CommonBehavior.cpp
 
-CMakeFiles/Controller.dir/CommonBehavior.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/CommonBehavior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/CommonBehavior.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CommonBehavior.cpp > CMakeFiles/Controller.dir/CommonBehavior.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CommonBehavior.cpp > CMakeFiles/Controller.dir/CommonBehavior.cpp.i
 
-CMakeFiles/Controller.dir/CommonBehavior.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/CommonBehavior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/CommonBehavior.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CommonBehavior.cpp -o CMakeFiles/Controller.dir/CommonBehavior.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CommonBehavior.cpp -o CMakeFiles/Controller.dir/CommonBehavior.cpp.s
 
-CMakeFiles/Controller.dir/DifferentialRobot.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/DifferentialRobot.cpp.o: DifferentialRobot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Controller.dir/DifferentialRobot.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/DifferentialRobot.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/DifferentialRobot.cpp
+src/CMakeFiles/Controller.dir/DifferentialRobot.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/DifferentialRobot.cpp.o: src/DifferentialRobot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/Controller.dir/DifferentialRobot.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/DifferentialRobot.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/DifferentialRobot.cpp
 
-CMakeFiles/Controller.dir/DifferentialRobot.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/DifferentialRobot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/DifferentialRobot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/DifferentialRobot.cpp > CMakeFiles/Controller.dir/DifferentialRobot.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/DifferentialRobot.cpp > CMakeFiles/Controller.dir/DifferentialRobot.cpp.i
 
-CMakeFiles/Controller.dir/DifferentialRobot.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/DifferentialRobot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/DifferentialRobot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/DifferentialRobot.cpp -o CMakeFiles/Controller.dir/DifferentialRobot.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/DifferentialRobot.cpp -o CMakeFiles/Controller.dir/DifferentialRobot.cpp.s
 
-CMakeFiles/Controller.dir/GenericBase.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/GenericBase.cpp.o: GenericBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Controller.dir/GenericBase.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/GenericBase.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/GenericBase.cpp
+src/CMakeFiles/Controller.dir/GenericBase.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/GenericBase.cpp.o: src/GenericBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/Controller.dir/GenericBase.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/GenericBase.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/GenericBase.cpp
 
-CMakeFiles/Controller.dir/GenericBase.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/GenericBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/GenericBase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/GenericBase.cpp > CMakeFiles/Controller.dir/GenericBase.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/GenericBase.cpp > CMakeFiles/Controller.dir/GenericBase.cpp.i
 
-CMakeFiles/Controller.dir/GenericBase.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/GenericBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/GenericBase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/GenericBase.cpp -o CMakeFiles/Controller.dir/GenericBase.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/GenericBase.cpp -o CMakeFiles/Controller.dir/GenericBase.cpp.s
 
-CMakeFiles/Controller.dir/Laser.cpp.o: CMakeFiles/Controller.dir/flags.make
-CMakeFiles/Controller.dir/Laser.cpp.o: Laser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Controller.dir/Laser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/Laser.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Laser.cpp
+src/CMakeFiles/Controller.dir/Laser.cpp.o: src/CMakeFiles/Controller.dir/flags.make
+src/CMakeFiles/Controller.dir/Laser.cpp.o: src/Laser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/Controller.dir/Laser.cpp.o"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/Laser.cpp.o -c /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Laser.cpp
 
-CMakeFiles/Controller.dir/Laser.cpp.i: cmake_force
+src/CMakeFiles/Controller.dir/Laser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/Laser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Laser.cpp > CMakeFiles/Controller.dir/Laser.cpp.i
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Laser.cpp > CMakeFiles/Controller.dir/Laser.cpp.i
 
-CMakeFiles/Controller.dir/Laser.cpp.s: cmake_force
+src/CMakeFiles/Controller.dir/Laser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/Laser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Laser.cpp -o CMakeFiles/Controller.dir/Laser.cpp.s
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Laser.cpp -o CMakeFiles/Controller.dir/Laser.cpp.s
 
 # Object files for target Controller
 Controller_OBJECTS = \
@@ -287,54 +287,54 @@ Controller_OBJECTS = \
 # External object files for target Controller
 Controller_EXTERNAL_OBJECTS =
 
-/bin/Controller: CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/specificworker.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/specificmonitor.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/main.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/genericmonitor.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/commonbehaviorI.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/genericworker.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/CommonBehavior.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/DifferentialRobot.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/GenericBase.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/Laser.cpp.o
-/bin/Controller: CMakeFiles/Controller.dir/build.make
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.12.8
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.12.8
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Xml.so.5.12.8
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5XmlPatterns.so.5.12.8
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libIce++11.so
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libIceStorm++11.so
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libIce.so
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libIceStorm.so
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
-/bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-/bin/Controller: CMakeFiles/Controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable /bin/Controller"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Controller.dir/link.txt --verbose=$(VERBOSE)
+bin/Controller: src/CMakeFiles/Controller.dir/Controller_autogen/mocs_compilation.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/specificworker.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/specificmonitor.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/rapplication/rapplication.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/home/salabeta/robocomp/classes/qlog/qlog.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/main.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/genericmonitor.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/commonbehaviorI.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/genericworker.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/CommonBehavior.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/DifferentialRobot.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/GenericBase.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/Laser.cpp.o
+bin/Controller: src/CMakeFiles/Controller.dir/build.make
+bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.12.8
+bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.12.8
+bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Xml.so.5.12.8
+bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5XmlPatterns.so.5.12.8
+bin/Controller: /usr/lib/x86_64-linux-gnu/libIce++11.so
+bin/Controller: /usr/lib/x86_64-linux-gnu/libIceStorm++11.so
+bin/Controller: /usr/lib/x86_64-linux-gnu/libIce.so
+bin/Controller: /usr/lib/x86_64-linux-gnu/libIceStorm.so
+bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
+bin/Controller: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+bin/Controller: src/CMakeFiles/Controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable ../bin/Controller"
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Controller.dir/build: /bin/Controller
+src/CMakeFiles/Controller.dir/build: bin/Controller
 
-.PHONY : CMakeFiles/Controller.dir/build
+.PHONY : src/CMakeFiles/Controller.dir/build
 
-CMakeFiles/Controller.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/Controller.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/Controller.dir/clean
+src/CMakeFiles/Controller.dir/clean:
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && $(CMAKE_COMMAND) -P CMakeFiles/Controller.dir/cmake_clean.cmake
+.PHONY : src/CMakeFiles/Controller.dir/clean
 
-CMakeFiles/Controller.dir/depend: CommonBehavior.cpp
-CMakeFiles/Controller.dir/depend: CommonBehavior.h
-CMakeFiles/Controller.dir/depend: DifferentialRobot.cpp
-CMakeFiles/Controller.dir/depend: DifferentialRobot.h
-CMakeFiles/Controller.dir/depend: GenericBase.cpp
-CMakeFiles/Controller.dir/depend: GenericBase.h
-CMakeFiles/Controller.dir/depend: Laser.cpp
-CMakeFiles/Controller.dir/depend: Laser.h
-	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/Controller.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/Controller.dir/depend
+src/CMakeFiles/Controller.dir/depend: src/CommonBehavior.cpp
+src/CMakeFiles/Controller.dir/depend: src/CommonBehavior.h
+src/CMakeFiles/Controller.dir/depend: src/DifferentialRobot.cpp
+src/CMakeFiles/Controller.dir/depend: src/DifferentialRobot.h
+src/CMakeFiles/Controller.dir/depend: src/GenericBase.cpp
+src/CMakeFiles/Controller.dir/depend: src/GenericBase.h
+src/CMakeFiles/Controller.dir/depend: src/Laser.cpp
+src/CMakeFiles/Controller.dir/depend: src/Laser.h
+	cd /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src /home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/Controller.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : src/CMakeFiles/Controller.dir/depend
 

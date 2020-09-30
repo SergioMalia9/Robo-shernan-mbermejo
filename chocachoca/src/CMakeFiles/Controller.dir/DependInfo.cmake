@@ -37,11 +37,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "Controller_autogen/include"
-  "."
-  "."
+  "src/Controller_autogen/include"
+  "src"
+  "src/."
   "/opt/robocomp/include"
   "/classes"
+  "."
   "/home/salabeta/robocomp/classes"
   "/home/salabeta/robocomp/libs"
   "/home/salabeta/robocomp/interfaces"

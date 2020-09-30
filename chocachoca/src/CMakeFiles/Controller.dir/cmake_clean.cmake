@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/bin/Controller"
-  "/bin/Controller.pdb"
+  "../bin/Controller"
+  "../bin/Controller.pdb"
   "CMakeFiles/Controller_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/Controller_autogen.dir/ParseCache.txt"
   "Controller_autogen"

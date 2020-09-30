@@ -1,10 +1,10 @@
 {
 	"BUILD_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen",
-	"CMAKE_BINARY_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
+	"CMAKE_BINARY_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
+	"CMAKE_SOURCE_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca",
 	"HEADERS" : 
 	[
 		[
@@ -77,6 +77,7 @@
 		"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
 		"/opt/robocomp/include",
 		"/classes",
+		"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca",
 		"/home/salabeta/robocomp/classes",
 		"/home/salabeta/robocomp/libs",
 		"/home/salabeta/robocomp/interfaces",
