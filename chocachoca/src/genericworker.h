@@ -57,6 +57,10 @@ protected:
 
 	QTimer timer;
 	int Period;
+	int estado;
+	int estadoPrevio;
+	int velocidad;
+	float angulo;
 
 private:
 

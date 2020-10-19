@@ -1,56 +1,56 @@
 {
-	"BUILD_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen",
-	"CMAKE_BINARY_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
+	"BUILD_DIR" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen",
+	"CMAKE_BINARY_DIR" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca",
+	"CMAKE_SOURCE_DIR" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca",
 	"HEADERS" : 
 	[
 		[
-			"/home/salabeta/robocomp/classes/qlog/qlog.h",
-			"MU",
-			"EQ62L5TKVX/moc_qlog.cpp"
-		],
-		[
-			"/home/salabeta/robocomp/classes/rapplication/rapplication.h",
-			"MU",
-			"DLFNUU7AK7/moc_rapplication.cpp"
-		],
-		[
-			"/home/salabeta/robocomp/classes/sigwatch/sigwatch.h",
-			"MU",
-			"BM3K3POHI5/moc_sigwatch.cpp"
-		],
-		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.h",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.h",
 			"MU",
 			"EWIEGA46WW/moc_commonbehaviorI.cpp"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.h",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.h",
 			"MU",
 			"EWIEGA46WW/moc_genericmonitor.cpp"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericworker.h",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/genericworker.h",
 			"MU",
 			"EWIEGA46WW/moc_genericworker.cpp"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.h",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.h",
 			"MU",
 			"EWIEGA46WW/moc_specificmonitor.cpp"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificworker.h",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/specificworker.h",
 			"MU",
 			"EWIEGA46WW/moc_specificworker.cpp"
+		],
+		[
+			"/home/mariobs/robocomp/classes/qlog/qlog.h",
+			"MU",
+			"62ALQGPNJ4/moc_qlog.cpp"
+		],
+		[
+			"/home/mariobs/robocomp/classes/rapplication/rapplication.h",
+			"MU",
+			"PC34LO42HS/moc_rapplication.cpp"
+		],
+		[
+			"/home/mariobs/robocomp/classes/sigwatch/sigwatch.h",
+			"MU",
+			"QTMFCIBWEO/moc_sigwatch.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"ICE_CPP11_MAPPING",
@@ -73,14 +73,14 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
-		"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src",
+		"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src",
+		"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src",
 		"/opt/robocomp/include",
 		"/classes",
-		"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca",
-		"/home/salabeta/robocomp/classes",
-		"/home/salabeta/robocomp/libs",
-		"/home/salabeta/robocomp/interfaces",
+		"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca",
+		"/home/mariobs/robocomp/classes",
+		"/home/mariobs/robocomp/libs",
+		"/home/mariobs/robocomp/interfaces",
 		"/include",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
@@ -111,45 +111,45 @@
 		"-c",
 		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/Controller_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/Controller_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/Controller_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
-	"SETTINGS_FILE" : "/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/Controller_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/Controller_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/salabeta/robocomp/classes/qlog/qlog.cpp", "MU" ],
-		[ "/home/salabeta/robocomp/classes/rapplication/rapplication.cpp", "MU" ],
-		[ "/home/salabeta/robocomp/classes/sigwatch/sigwatch.cpp", "MU" ],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.cpp",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/commonbehaviorI.cpp",
 			"MU"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.cpp",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/genericmonitor.cpp",
 			"MU"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/genericworker.cpp",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/genericworker.cpp",
 			"MU"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/main.cpp",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/main.cpp",
 			"MU"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.cpp",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/specificmonitor.cpp",
 			"MU"
 		],
 		[
-			"/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/specificworker.cpp",
+			"/home/mariobs/robocomp/Robo-shernan-mbermejo/chocachoca/src/specificworker.cpp",
 			"MU"
-		]
+		],
+		[ "/home/mariobs/robocomp/classes/qlog/qlog.cpp", "MU" ],
+		[ "/home/mariobs/robocomp/classes/rapplication/rapplication.cpp", "MU" ],
+		[ "/home/mariobs/robocomp/classes/sigwatch/sigwatch.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

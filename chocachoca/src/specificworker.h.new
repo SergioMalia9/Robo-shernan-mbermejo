@@ -38,11 +38,10 @@ public:
 	~SpecificWorker();
 	bool setParams(RoboCompCommonBehavior::ParameterList params);
 
+
+
 public slots:
 	void compute();
-	void avanzar(float threshold,  RoboCompLaser::TLaserData ldata);
-	void chocar(float threshold,  RoboCompLaser::TLaserData ldata);
-	void girar(float threshold,  RoboCompLaser::TLaserData ldata);
 	int startup_check();
 	void initialize(int period);
 private:
