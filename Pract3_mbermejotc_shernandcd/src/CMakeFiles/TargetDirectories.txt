@@ -1,9 +1,0 @@
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/install/strip.dir
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/install/local.dir
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/install.dir
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/list_install_components.dir
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/rebuild_cache.dir
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/edit_cache.dir
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/Controller.dir
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/ICES__home_salabeta_robocomp_components_Robo-shernan-mbermejo_chocachoca_src.dir
-/home/salabeta/robocomp/components/Robo-shernan-mbermejo/chocachoca/src/CMakeFiles/Controller_autogen.dir
