@@ -1,0 +1,10 @@
+import "DifferentialRobot.idsl";
+import "Laser.idsl";
+    Component Controller
+    {
+        Communications
+	{
+            requires DifferentialRobot, Laser;
+        };
+    language Cpp11; 
+    };
