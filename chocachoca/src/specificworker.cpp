@@ -63,7 +63,7 @@ void SpecificWorker::initialize(int period)
 	this->estadoPrevio = 0;
 	this->velocidad = 100;
 	this->angulo = -2;
-	
+
 	if(this->startup_check_flag)
 	{
 		this->startup_check();
@@ -102,7 +102,7 @@ void SpecificWorker::girar(float threshold, RoboCompLaser::TLaserData ldata){
 //	differentialrobot_proxy->setSpeedBase(this->velocidad, 1.5);
 	differentialrobot_proxy->setSpeedBase(1000, this->angulo);
 	if(this->angulo < 0){
-		this->angulo = this->angulo + 0.1;
+		this->angulo = this->angulo + 0.01;
 	}else{
 		this->angulo = -1;
 	}
@@ -129,10 +129,10 @@ void SpecificWorker::compute()
     try
     {
 
-    	// read laser data 
-        RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData(); 
+    	// read laser data
+        RoboCompLaser::TLaserData ldata = laser_proxy->getLaserData();
 		//sort laser data from small to large distances using a lambda function.
-        std::sort( ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b){ return     a.dist < b.dist; });  
+        std::sort( ldata.begin(), ldata.end(), [](RoboCompLaser::TData a, RoboCompLaser::TData b){ return     a.dist < b.dist; });
 
 		switch(this->estado){
 			case 0://Avanzar
@@ -142,7 +142,7 @@ void SpecificWorker::compute()
 				SpecificWorker::chocar(threshold, ldata);
 				break;
 			case 2://girar
-				SpecificWorker::girar(threshold, ldata);	
+				SpecificWorker::girar(threshold, ldata);
 				break;
 		}//switch
     }
@@ -150,7 +150,7 @@ void SpecificWorker::compute()
     {
         std::cout << ex << std::endl;
     }
-	
+
 }
 
 int SpecificWorker::startup_check()
@@ -186,4 +186,3 @@ int SpecificWorker::startup_check()
 // From the RoboCompLaser you can use this types:
 // RoboCompLaser::LaserConfData
 // RoboCompLaser::TData
-
